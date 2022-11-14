@@ -49,7 +49,7 @@ export function DisplayTodo() {
   return (
     <section className="container">
       <Link to="/add-list" className="button-new">
-        <button className="todo-btn">➕ Add new todo</button>
+        <button className="todo-btn">➕  Add new todo</button><br></br>
       </Link>
       <section className="todo-data">
         <h1></h1>
