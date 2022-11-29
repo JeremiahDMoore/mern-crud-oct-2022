@@ -2,7 +2,7 @@
 ## MongoDB | Express | React | Node
 
 
-### Simple app to handle your todos. Creates Todo item, Reads from the Database, Updates Todo item, Deletes Todo item.
+Simple app to handle your todos. Creates Todo item, Reads from the Database, Updates Todo item, Deletes Todo item.
 
 ## Dependencies
 ```
