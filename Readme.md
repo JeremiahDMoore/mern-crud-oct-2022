@@ -1,39 +1,64 @@
-# To Do App made with MERN
-## MongoDB | Express | React | Node
+# MERN CRUD Application
 
+A simple To-Do application built using the MERN stack (MongoDB, Express, React, Node.js) in October 2022. This app demonstrates basic CRUD (Create, Read, Update, Delete) operations.
 
-Simple app to handle your todos. Creates Todo item, Reads from the Database, Updates Todo item, Deletes Todo item.
+## Features
 
-## Dependencies
-```
-"cors": "^2.8.5",
-"dotenv": "^10.0.0",
-"express": "^4.17.1",
-"mongoose": "^6.0.8",
-"nodemon": "^2.0.13"
-"axios": "^0.24.0",
-"node-sass": "^6.0.1",
-"react": "^17.0.2",
-"react-dom": "^17.0.2",
-"react-router-dom": "^5.3.0",
-"react-scripts": "4.0.3",
-"web-vitals": "^1.1.2"
-```
+- **Add Tasks**: Create new to-do items.
+- **View Tasks**: Display all tasks in a list.
+- **Edit Tasks**: Update existing tasks.
+- **Delete Tasks**: Remove tasks from the list.
+
+## Technologies Used
+
+- **MongoDB**: NoSQL database for storing tasks.
+- **Express**: Web framework for Node.js.
+- **React**: Front-end library for building user interfaces.
+- **Node.js**: JavaScript runtime for the server.
 
 ## Installation
-```
-cd server
-npm install
-cd ../client
-npm install
 
-npm start
-```
-server runs on
-```
-http://localhost:4000
-```
-client runs on
-```
-http://localhost:3000
-```
+To run this application locally:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/JeremiahDMoore/mern-crud-oct-2022.git
+   cd mern-crud-oct-2022
+   ```
+
+2. **Install Server Dependencies**:
+   ```bash
+   cd server
+   npm install
+   ```
+
+3. **Install Client Dependencies**:
+   ```bash
+   cd ../client
+   npm install
+   ```
+
+4. **Start the Application**:
+   - **Server**:
+     ```bash
+     cd ../server
+     npm start
+     ```
+     The server will run on `http://localhost:4000`.
+
+   - **Client**:
+     ```bash
+     cd ../client
+     npm start
+     ```
+     The client will run on `http://localhost:3000`.
+
+## Usage
+
+- **Add a Task**: Enter the task description and click "Add".
+- **Edit a Task**: Click the "Edit" button next to a task, modify the description, and save.
+- **Delete a Task**: Click the "Delete" button to remove a task.
+
+## Acknowledgments
+
+Developed as a learning project to demonstrate CRUD operations using the MERN stack.
